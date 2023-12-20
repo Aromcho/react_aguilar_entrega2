@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width:4em;
+  padding: .5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff6464aa);
+}
+/*navbar*/
+.barra-nave {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(49, 49, 49, 0.562); 
+  backdrop-filter: blur(10px); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.lista-nave {
+  list-style: none;
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+}
+.flechita {
+  font-size: 0.6rem;
+}
+.cart-widget {
+  padding-right: 1em;
+}
+
+
+
+
+
+
+
+/*-------------------------------------*/
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
