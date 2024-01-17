@@ -1,0 +1,21 @@
+.lista-productos {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
+  
+  }
+  .img-productos {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .item-list {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
+  }
+  .item {
+    background-color: gray;
+    width: 100%;
+  }
