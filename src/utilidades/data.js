@@ -575,12 +575,11 @@ const productos = [
     },
   
   ];
-  const obtenerProductos = () => {
-    return new Promise((resolve, reject) => {
+  const obtenerProductos =  new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(productos);
       }, 2000);
     });
-  };
+  ;
   
   export default obtenerProductos;

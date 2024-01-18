@@ -6,21 +6,26 @@ import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
-  const { product } = useParams();
-
+  const { category } = useParams();
   useEffect(() => {
-    obtenerProductos()
-      .then((respuesta) => {
-        console.log('Datos de productos:', respuesta);
-        const productosFiltrados = product
-          ? respuesta.filter((producto) => producto.categoria.id === product)
-          : respuesta;
-        setProductos(productosFiltrados);
+    obtenerProductos
+      .then((respuesta) => 
+      {
+        if(category){
+          //filtrar la data
+          const productosFiltrados = respuesta.filter((producto)=> producto.categoria.id === category)
+          
+          setProductos(productosFiltrados)
+        }else{
+          //guardamos todos los productos
+          setProductos(respuesta)
+        }
       })
       .catch((error) => {
-        console.error('Error al obtener productos:', error);
-      });
-  }, [product]);
+        console.error('Error al obtener productos:', error)
+      })
+      
+  }, [category]);
 
   return (
     <div className="item-list-container">
