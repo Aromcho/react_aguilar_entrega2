@@ -3,7 +3,12 @@
     height: 60%;
     object-fit: cover;
   }
-.item {
-  text-align: center;
+.Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+
+
 
 }

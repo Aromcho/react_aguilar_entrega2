@@ -1,0 +1,28 @@
+.ItemDetail {
+    display: flex;
+    margin-top: 5%;
+}
+.img-detail {
+
+}
+.ficha {
+    background-color: rgba(66, 66, 66, 0.582);
+    width: 50vw;
+
+}
+.parte-izquierda {
+    width: 50vw;
+}
+.capa {
+    padding:1rem;
+    font-size: 14px;
+
+}
+.detalles {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img-detail {
+    width: 100%;
+}
