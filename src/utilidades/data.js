@@ -8,7 +8,7 @@ const productos = [
       <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
       <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
     </div>`,
-      imagen: "./img/duke 390.webp",
+      imagen: "/img/duke 390.webp",
       categoria: {
         nombre: "KTM",
         id: "ktm"
@@ -23,7 +23,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/rc-390.jpg",
+      imagen: "/img/rc-390.jpg",
       categoria: {
         nombre: "KTM",
         id: "ktm"
@@ -39,7 +39,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/duke-200.webp",
+      imagen: "/img/duke-200.webp",
       categoria: {
         nombre: "KTM",
         id: "ktm"
@@ -55,7 +55,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/adventure-390.webp",
+      imagen: "/img/adventure-390.webp",
       categoria: {
         nombre: "KTM",
         id: "ktm"
@@ -71,7 +71,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/rc-200.jpg",
+      imagen: "/img/rc-200.jpg",
       categoria: {
         nombre: "KTM",
         id: "ktm"
@@ -87,7 +87,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/duke-125.jpg",
+      imagen: "/img/duke-125.jpg",
       categoria: {
         nombre: "KTM",
         id: "ktm"
@@ -103,7 +103,7 @@ const productos = [
       <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
       <div class="detalles"><h6>Transmisión:</h6><p>5 velocidades</p></div>
     </div>`,
-      imagen: "./img/fz 150.webp",
+      imagen: "/img/fz 150.webp",
       categoria: {
         nombre: "Yamaha",
         id: "yamaha"
@@ -119,7 +119,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/yzf-r1.webp",
+      imagen: "/img/yzf-r1.webp",
       categoria: {
         nombre: "Yamaha",
         id: "yamaha"
@@ -135,7 +135,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/mt-07.jpg",
+      imagen: "/img/mt-07.jpg",
       categoria: {
         nombre: "Yamaha",
         id: "yamaha"
@@ -151,7 +151,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/yzf-r6.jpg",
+      imagen: "/img/yzf-r6.jpg",
       categoria: {
         nombre: "Yamaha",
         id: "yamaha"
@@ -167,7 +167,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/tracer-900.jpg",
+      imagen: "/img/tracer-900.jpg",
       categoria: {
         nombre: "Yamaha",
         id: "yamaha"
@@ -183,7 +183,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>5 velocidades</p></div>
       </div>`,
-      imagen: "./img/xt-660z-tenere.jpg",
+      imagen: "/img/xt-660z-tenere.jpg",
       categoria: {
         nombre: "Yamaha",
         id: "yamaha"
@@ -199,7 +199,7 @@ const productos = [
       <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
     </div>`,
       titulo: "Ninja 400",
-      imagen: "./img/ninja 400.webp",
+      imagen: "/img/ninja 400.webp",
       categoria: {
         nombre: "Kawasaki",
         id: "kawasaki"
@@ -214,7 +214,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/ninja-h2.webp",
+      imagen: "/img/ninja-h2.webp",
       categoria: {
         nombre: "Kawasaki",
         id: "kawasaki"
@@ -230,7 +230,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/z650.webp",
+      imagen: "/img/z650.webp",
       categoria: {
         nombre: "Kawasaki",
         id: "kawasaki"
@@ -246,7 +246,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/versys-1000.webp",
+      imagen: "/img/versys-1000.webp",
       categoria: {
         nombre: "Kawasaki",
         id: "kawasaki"
@@ -262,7 +262,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/zx-6r.webp",
+      imagen: "/img/zx-6r.webp",
       categoria: {
         nombre: "Kawasaki",
         id: "kawasaki"
@@ -278,7 +278,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/vulcan-s.webp",
+      imagen: "/img/vulcan-s.webp",
       categoria: {
         nombre: "Kawasaki",
         id: "kawasaki"
@@ -294,7 +294,7 @@ const productos = [
       <div class="detalles"><h6>Alimentación:</h6><p>carburador</p></div>
       <div class="detalles"><h6>Transmisión:</h6><p>5 velocidades</p></div>
     </div>`,
-      imagen: "./img/suzuki-gn-125.jpg",
+      imagen: "/img/suzuki-gn-125.jpg",
       categoria: {
         nombre: "Suzuki",
         id: "suzuki"
@@ -310,7 +310,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/gsx-s750.webp",
+      imagen: "/img/gsx-s750.webp",
       categoria: {
         nombre: "Suzuki",
         id: "suzuki"
@@ -326,7 +326,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/sv650.webp",
+      imagen: "/img/sv650.webp",
       categoria: {
         nombre: "Suzuki",
         id: "suzuki"
@@ -342,7 +342,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/hayabusa.webp",
+      imagen: "/img/hayabusa.webp",
       categoria: {
         nombre: "Suzuki",
         id: "suzuki"
@@ -358,7 +358,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/v-strom-650.webp",
+      imagen: "/img/v-strom-650.webp",
       categoria: {
         nombre: "Suzuki",
         id: "suzuki"
@@ -374,7 +374,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/gsx-r1000.webp",
+      imagen: "/img/gsx-r1000.webp",
       categoria: {
         nombre: "Suzuki",
         id: "suzuki"
@@ -390,7 +390,7 @@ const productos = [
       <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
       <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
     </div>`,
-      imagen: "./img/NC750X.webp",
+      imagen: "/img/NC750X.webp",
       categoria: {
         nombre: "Honda",
         id: "honda"
@@ -406,7 +406,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/cbr1000rr.webp",
+      imagen: "/img/cbr1000rr.webp",
       categoria: {
         nombre: "Honda",
         id: "honda"
@@ -422,7 +422,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/cb500x.webp",
+      imagen: "/img/cb500x.webp",
       categoria: {
         nombre: "Honda",
         id: "honda"
@@ -438,7 +438,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>7 velocidades</p></div>
       </div>`,
-      imagen: "./img/goldwing.webp",
+      imagen: "/img/goldwing.webp",
       categoria: {
         nombre: "Honda",
         id: "honda"
@@ -454,7 +454,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/cbr650r.webp",
+      imagen: "/img/cbr650r.webp",
       categoria: {
         nombre: "Honda",
         id: "honda"
@@ -470,7 +470,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
       </div>`,
-      imagen: "./img/africatwin.webp",
+      imagen: "/img/africatwin.webp",
       categoria: {
         nombre: "Honda",
         id: "honda"
@@ -486,7 +486,7 @@ const productos = [
       <div class="detalles"><h6>Alimentación:</h6><p>carburador</p></div>
       <div class="detalles"><h6>Transmisión:</h6><p> velocidades</p></div>
     </div>`,
-      imagen: "./img/smx-200-adv.jpeg",
+      imagen: "/img/smx-200-adv.jpeg",
       categoria: {
         nombre: "Gilera",
         id: "gilera"
@@ -502,7 +502,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Carburador</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>5 velocidades</p></div>
       </div>`,
-      imagen: "./img/smx-125.webp",
+      imagen: "/img/smx-125.webp",
       categoria: {
         nombre: "Gilera",
         id: "gilera"
@@ -518,7 +518,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Carburador</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
       </div>`,
-      imagen: "./img/runner-50.webp",
+      imagen: "/img/runner-50.webp",
       categoria: {
         nombre: "Gilera",
         id: "gilera"
@@ -534,7 +534,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
       </div>`,
-      imagen: "./img/nexus-500.webp",
+      imagen: "/img/nexus-500.webp",
       categoria: {
         nombre: "Gilera",
         id: "gilera"
@@ -550,7 +550,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Carburador</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
       </div>`,
-      imagen: "./img/stalker-50.webp",
+      imagen: "/img/stalker-50.webp",
       categoria: {
         nombre: "Gilera",
         id: "gilera"
@@ -566,7 +566,7 @@ const productos = [
         <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
         <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
       </div>`,
-      imagen: "./img/fuoco-500.webp",
+      imagen: "/img/fuoco-500.webp",
       categoria: {
         nombre: "Gilera",
         id: "gilera"

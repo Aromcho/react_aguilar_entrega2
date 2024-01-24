@@ -14,19 +14,13 @@ const ItemListContainer = () => {
         if (category) {
           const productosFiltrados = respuesta.filter((producto) => producto.categoria.id === category);
 
-          const productosConRutasActualizadas = productosFiltrados.map((producto) => ({
-            ...producto,
-            imagen: `${import.meta.env.BASE_URL}${producto.imagen}`
-          }));
+          
 
-          setProductos(productosConRutasActualizadas);
+          setProductos(productosFiltrados);
         } else {
-          const productosConRutasActualizadas = respuesta.map((producto) => ({
-            ...producto,
-            imagen: `${import.meta.env.BASE_URL}${producto.imagen}`
-          }));
+          
 
-          setProductos(productosConRutasActualizadas);
+          setProductos(respuesta);
         }
       })
       .catch((error) => {
