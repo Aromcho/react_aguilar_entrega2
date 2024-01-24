@@ -12,21 +12,18 @@ const ItemListContainer = () => {
     obtenerProductos
       .then((respuesta) => {
         if (category) {
-          // Filtrar la data
           const productosFiltrados = respuesta.filter((producto) => producto.categoria.id === category);
 
-          // Actualizar rutas de imágenes en productos filtrados
           const productosConRutasActualizadas = productosFiltrados.map((producto) => ({
             ...producto,
-            imagen: `${import.meta.env.BASE_URL}${producto.imagen}` // Asegurar ruta completa
+            imagen: `${import.meta.env.BASE_URL}${producto.imagen}`
           }));
 
           setProductos(productosConRutasActualizadas);
         } else {
-          // Guardar todos los productos
           const productosConRutasActualizadas = respuesta.map((producto) => ({
             ...producto,
-            imagen: `${import.meta.env.BASE_URL}${producto.imagen}` // Asegurar ruta completa
+            imagen: `${import.meta.env.BASE_URL}${producto.imagen}` 
           }));
 
           setProductos(productosConRutasActualizadas);
@@ -49,7 +46,6 @@ const ItemListContainer = () => {
         </section>
       </div>
       <h2>Todos los productos</h2>
-      {/* Muestra la lista de productos */}
       {productos.length > 0 ? (
         <ItemList productos={productos} />
       ) : (
