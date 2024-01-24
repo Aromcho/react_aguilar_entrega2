@@ -23,7 +23,7 @@ const ItemListContainer = () => {
         } else {
           const productosConRutasActualizadas = respuesta.map((producto) => ({
             ...producto,
-            imagen: `${import.meta.env.BASE_URL}${producto.imagen}` 
+            imagen: `${import.meta.env.BASE_URL}${producto.imagen}`
           }));
 
           setProductos(productosConRutasActualizadas);
