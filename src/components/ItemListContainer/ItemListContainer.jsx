@@ -3,29 +3,27 @@ import obtenerProductos from '../../utilidades/data';
 import ItemList from '../ItemList/ItemList';
 import '../ItemListContainer/ItemListContainer.css';
 import { useParams } from 'react-router-dom';
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import { db } from '../../firebase/config';
 
-const ItemListContainer = () => {
+
+const ItemListContainer = ({ producto }) => {
   const [productos, setProductos] = useState([]);
   const { category } = useParams();
 
   useEffect(() => {
-    obtenerProductos
-      .then((respuesta) => {
-        if (category) {
-          const productosFiltrados = respuesta.filter((producto) => producto.categoria.id === category);
 
-          
-
-          setProductos(productosFiltrados);
-        } else {
-          
-
-          setProductos(respuesta);
-        }
+    const productosRef = collection(db, "productos");
+    const q = category ? query(productosRef, where("categoria", "==", category )) : productosRef;
+    getDocs(q)
+      .then((resp) => {
+        setProductos(
+          resp.docs.map((doc) => {
+            return { ...doc.data(), id: doc.id }
+          })
+          )
       })
-      .catch((error) => {
-        console.error('Error al obtener productos:', error);
-      });
+
   }, [category]);
 
   return (

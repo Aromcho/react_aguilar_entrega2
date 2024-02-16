@@ -65,5 +65,17 @@
 }
 
 .cart-widget {
-  padding-right: 1em;
+width: 5vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+background-color: rgba(49, 49, 49, 0.438);
+  border-radius: 20%;
+  
+}
+.cantidad-productos {
+  text-decoration: none;
+  color: aliceblue;
+  
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
-import CartWidget from '../CartWidget';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);

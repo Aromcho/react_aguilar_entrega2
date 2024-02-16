@@ -1,6 +1,6 @@
 const productos = [
     {
-      id: "Duke-390",
+      nombreid: "Duke-390",
       titulo: "Duke 390",
       ficha: `<div class="capa">
       <div class="detalles"><h6>Cilindrada:</h6><p>249 cc</p></div>
@@ -11,11 +11,11 @@ const productos = [
       imagen: "/img/duke 390.webp",
       categoria: {
         nombre: "KTM",
-        id: "ktm"
+        nombreid: "ktm"
       },
       precio: 9900,
     },{
-      id: "rc-390",
+      nombreid: "rc-390",
       titulo: "RC 390",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>373 cc</p></div>
@@ -26,12 +26,12 @@ const productos = [
       imagen: "/img/rc-390.jpg",
       categoria: {
         nombre: "KTM",
-        id: "ktm"
+        nombreid: "ktm"
       },
       precio: 10800,
     },
     {
-      id: "duke-200",
+      nombreid: "duke-200",
       titulo: "Duke 200",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>199.5 cc</p></div>
@@ -42,12 +42,12 @@ const productos = [
       imagen: "/img/duke-200.webp",
       categoria: {
         nombre: "KTM",
-        id: "ktm"
+        nombreid: "ktm"
       },
       precio: 7800,
     },
     {
-      id: "adventure-390",
+      nombreid: "adventure-390",
       titulo: "Adventure 390",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>373 cc</p></div>
@@ -58,12 +58,12 @@ const productos = [
       imagen: "/img/adventure-390.webp",
       categoria: {
         nombre: "KTM",
-        id: "ktm"
+        nombreid: "ktm"
       },
       precio: 11500,
     },
     {
-      id: "rc-200",
+      nombreid: "rc-200",
       titulo: "RC 200",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>199.5 cc</p></div>
@@ -74,12 +74,12 @@ const productos = [
       imagen: "/img/rc-200.jpg",
       categoria: {
         nombre: "KTM",
-        id: "ktm"
+        nombreid: "ktm"
       },
       precio: 9200,
     },
     {
-      id: "duke-125",
+      nombreid: "duke-125",
       titulo: "Duke 125",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>124.7 cc</p></div>
@@ -90,12 +90,12 @@ const productos = [
       imagen: "/img/duke-125.jpg",
       categoria: {
         nombre: "KTM",
-        id: "ktm"
+        nombreid: "ktm"
       },
       precio: 5400,
     },
     {
-      id: "fz-150",
+      nombreid: "fz-150",
       titulo: "FZ 150",
       ficha: `<div class="capa">
       <div class="detalles"><h6>Cilindrada:</h6><p>149 cc</p></div>
@@ -106,12 +106,12 @@ const productos = [
       imagen: "/img/fz 150.webp",
       categoria: {
         nombre: "Yamaha",
-        id: "yamaha"
+        nombreid: "yamaha"
       },
       precio: 2600,
     },
     {
-      id: "yzf-r1",
+      nombreid: "yzf-r1",
       titulo: "YZF-R1",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>998 cc</p></div>
@@ -122,12 +122,12 @@ const productos = [
       imagen: "/img/yzf-r1.webp",
       categoria: {
         nombre: "Yamaha",
-        id: "yamaha"
+        nombreid: "yamaha"
       },
       precio: 18000,
     },
     {
-      id: "mt-07",
+      nombreid: "mt-07",
       titulo: "MT-07",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>689 cc</p></div>
@@ -138,12 +138,12 @@ const productos = [
       imagen: "/img/mt-07.jpg",
       categoria: {
         nombre: "Yamaha",
-        id: "yamaha"
+        nombreid: "yamaha"
       },
       precio: 8700,
     },
     {
-      id: "yzf-r6",
+      nombreid: "yzf-r6",
       titulo: "YZF-R6",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>599 cc</p></div>
@@ -154,12 +154,12 @@ const productos = [
       imagen: "/img/yzf-r6.jpg",
       categoria: {
         nombre: "Yamaha",
-        id: "yamaha"
+        nombreid: "yamaha"
       },
       precio: 12500,
     },
     {
-      id: "tracer-900",
+      nombreid: "tracer-900",
       titulo: "Tracer 900",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>847 cc</p></div>
@@ -170,12 +170,12 @@ const productos = [
       imagen: "/img/tracer-900.jpg",
       categoria: {
         nombre: "Yamaha",
-        id: "yamaha"
+        nombreid: "yamaha"
       },
       precio: 14200,
     },
     {
-      id: "xt-660z-tenere",
+      nombreid: "xt-660z-tenere",
       titulo: "XT 660Z Ténéré",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>660 cc</p></div>
@@ -186,12 +186,12 @@ const productos = [
       imagen: "/img/xt-660z-tenere.jpg",
       categoria: {
         nombre: "Yamaha",
-        id: "yamaha"
+        nombreid: "yamaha"
       },
       precio: 12600,
     },
     {
-      id: "ninja-400",
+      nombreid: "ninja-400",
       ficha: `<div class="capa">
       <div class="detalles"><h6>Cilindrada:</h6><p>399 cc</p></div>
       <div class="detalles"><h6>Velocidad máxima:</h6><p>170 km/h</p></div>
@@ -202,11 +202,11 @@ const productos = [
       imagen: "/img/ninja 400.webp",
       categoria: {
         nombre: "Kawasaki",
-        id: "kawasaki"
+        nombreid: "kawasaki"
       },
       precio: 13350
     },{
-      id: "ninja-h2",
+      nombreid: "ninja-h2",
       titulo: "Ninja H2",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>998 cc</p></div>
@@ -217,12 +217,12 @@ const productos = [
       imagen: "/img/ninja-h2.webp",
       categoria: {
         nombre: "Kawasaki",
-        id: "kawasaki"
+        nombreid: "kawasaki"
       },
       precio: 33000,
     },
     {
-      id: "z650",
+      nombreid: "z650",
       titulo: "Z650",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>649 cc</p></div>
@@ -233,12 +233,12 @@ const productos = [
       imagen: "/img/z650.webp",
       categoria: {
         nombre: "Kawasaki",
-        id: "kawasaki"
+        nombreid: "kawasaki"
       },
       precio: 9200,
     },
     {
-      id: "versys-1000",
+      nombreid: "versys-1000",
       titulo: "Versys 1000",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>1043 cc</p></div>
@@ -249,12 +249,12 @@ const productos = [
       imagen: "/img/versys-1000.webp",
       categoria: {
         nombre: "Kawasaki",
-        id: "kawasaki"
+        nombreid: "kawasaki"
       },
       precio: 14500,
     },
     {
-      id: "zx-6r",
+      nombreid: "zx-6r",
       titulo: "ZX-6R",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>636 cc</p></div>
@@ -265,12 +265,12 @@ const productos = [
       imagen: "/img/zx-6r.webp",
       categoria: {
         nombre: "Kawasaki",
-        id: "kawasaki"
+        nombreid: "kawasaki"
       },
       precio: 12500,
     },
     {
-      id: "vulcan-s",
+      nombreid: "vulcan-s",
       titulo: "Vulcan S",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>649 cc</p></div>
@@ -281,12 +281,12 @@ const productos = [
       imagen: "/img/vulcan-s.webp",
       categoria: {
         nombre: "Kawasaki",
-        id: "kawasaki"
+        nombreid: "kawasaki"
       },
       precio: 8700,
     },
     {
-      id: "gn-125",
+      nombreid: "gn-125",
       titulo: "GN 125",
       ficha: `<div class="capa">
       <div class="detalles"><h6>Cilindrada:</h6><p>124 cc</p></div>
@@ -297,12 +297,12 @@ const productos = [
       imagen: "/img/suzuki-gn-125.jpg",
       categoria: {
         nombre: "Suzuki",
-        id: "suzuki"
+        nombreid: "suzuki"
       },
       precio: 1900
     },
     {
-      id: "gsx-s750",
+      nombreid: "gsx-s750",
       titulo: "GSX-S750",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>749 cc</p></div>
@@ -313,12 +313,12 @@ const productos = [
       imagen: "/img/gsx-s750.webp",
       categoria: {
         nombre: "Suzuki",
-        id: "suzuki"
+        nombreid: "suzuki"
       },
       precio: 10500,
     },
     {
-      id: "sv650",
+      nombreid: "sv650",
       titulo: "SV650",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>645 cc</p></div>
@@ -329,12 +329,12 @@ const productos = [
       imagen: "/img/sv650.webp",
       categoria: {
         nombre: "Suzuki",
-        id: "suzuki"
+        nombreid: "suzuki"
       },
       precio: 7800,
     },
     {
-      id: "hayabusa",
+      nombreid: "hayabusa",
       titulo: "Hayabusa",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>1340 cc</p></div>
@@ -345,12 +345,12 @@ const productos = [
       imagen: "/img/hayabusa.webp",
       categoria: {
         nombre: "Suzuki",
-        id: "suzuki"
+        nombreid: "suzuki"
       },
       precio: 18500,
     },
     {
-      id: "v-strom-650",
+      nombreid: "v-strom-650",
       titulo: "V-Strom 650",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>645 cc</p></div>
@@ -361,12 +361,12 @@ const productos = [
       imagen: "/img/v-strom-650.webp",
       categoria: {
         nombre: "Suzuki",
-        id: "suzuki"
+        nombreid: "suzuki"
       },
       precio: 9200,
     },
     {
-      id: "gsx-r1000",
+      nombreid: "gsx-r1000",
       titulo: "GSX-R1000",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>999 cc</p></div>
@@ -377,12 +377,12 @@ const productos = [
       imagen: "/img/gsx-r1000.webp",
       categoria: {
         nombre: "Suzuki",
-        id: "suzuki"
+        nombreid: "suzuki"
       },
       precio: 16500,
     },
     { 
-      id: "NC750X",
+      nombreid: "NC750X",
       titulo: "NC750X",
       ficha: `<div class="capa">
       <div class="detalles"><h6>Cilindrada:</h6><p>745 cc</p></div>
@@ -393,12 +393,12 @@ const productos = [
       imagen: "/img/NC750X.webp",
       categoria: {
         nombre: "Honda",
-        id: "honda"
+        nombreid: "honda"
       },
       precio: 15500
     },
     {
-      id: "cbr1000rr",
+      nombreid: "cbr1000rr",
       titulo: "CBR1000RR",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>1000 cc</p></div>
@@ -409,12 +409,12 @@ const productos = [
       imagen: "/img/cbr1000rr.webp",
       categoria: {
         nombre: "Honda",
-        id: "honda"
+        nombreid: "honda"
       },
       precio: 17200,
     },
     {
-      id: "cb500x",
+      nombreid: "cb500x",
       titulo: "CB500X",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>471 cc</p></div>
@@ -425,12 +425,12 @@ const productos = [
       imagen: "/img/cb500x.webp",
       categoria: {
         nombre: "Honda",
-        id: "honda"
+        nombreid: "honda"
       },
       precio: 7200,
     },
     {
-      id: "goldwing",
+      nombreid: "goldwing",
       titulo: "Goldwing",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>1833 cc</p></div>
@@ -441,12 +441,12 @@ const productos = [
       imagen: "/img/goldwing.webp",
       categoria: {
         nombre: "Honda",
-        id: "honda"
+        nombreid: "honda"
       },
       precio: 33000,
     },
     {
-      id: "cbr650r",
+      nombreid: "cbr650r",
       titulo: "CBR650R",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>649 cc</p></div>
@@ -457,12 +457,12 @@ const productos = [
       imagen: "/img/cbr650r.webp",
       categoria: {
         nombre: "Honda",
-        id: "honda"
+        nombreid: "honda"
       },
       precio: 9900,
     },
     {
-      id: "africatwin",
+      nombreid: "africatwin",
       titulo: "Africa Twin",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>1084 cc</p></div>
@@ -473,12 +473,12 @@ const productos = [
       imagen: "/img/africatwin.webp",
       categoria: {
         nombre: "Honda",
-        id: "honda"
+        nombreid: "honda"
       },
       precio: 16800,
     },
     { 
-      id: "SMX-200",
+      nombreid: "SMX-200",
       titulo: "SMX 200 Adventure",
       ficha: `<div class="capa">
       <div class="detalles"><h6>Cilindrada:</h6><p>205cc</p></div>
@@ -489,12 +489,12 @@ const productos = [
       imagen: "/img/smx-200-adv.jpeg",
       categoria: {
         nombre: "Gilera",
-        id: "gilera"
+        nombreid: "gilera"
       },
       precio: 1680
     },
     {
-      id: "smx-125",
+      nombreid: "smx-125",
       titulo: "SMX 125",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>125 cc</p></div>
@@ -505,12 +505,12 @@ const productos = [
       imagen: "/img/smx-125.webp",
       categoria: {
         nombre: "Gilera",
-        id: "gilera"
+        nombreid: "gilera"
       },
       precio: 2500,
     },
     {
-      id: "runner-50",
+      nombreid: "runner-50",
       titulo: "Runner 50",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>50 cc</p></div>
@@ -521,12 +521,12 @@ const productos = [
       imagen: "/img/runner-50.webp",
       categoria: {
         nombre: "Gilera",
-        id: "gilera"
+        nombreid: "gilera"
       },
       precio: 1200,
     },
     {
-      id: "nexus-500",
+      nombreid: "nexus-500",
       titulo: "Nexus 500",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>492 cc</p></div>
@@ -537,12 +537,12 @@ const productos = [
       imagen: "/img/nexus-500.webp",
       categoria: {
         nombre: "Gilera",
-        id: "gilera"
+        nombreid: "gilera"
       },
       precio: 4800,
     },
     {
-      id: "stalker-50",
+      nombreid: "stalker-50",
       titulo: "Stalker 50",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>49 cc</p></div>
@@ -553,12 +553,12 @@ const productos = [
       imagen: "/img/stalker-50.webp",
       categoria: {
         nombre: "Gilera",
-        id: "gilera"
+        nombreid: "gilera"
       },
       precio: 1100,
     },
     {
-      id: "fuoco-500",
+      nombreid: "fuoco-500",
       titulo: "Fuoco 500",
       ficha: `<div class="capa">
         <div class="detalles"><h6>Cilindrada:</h6><p>493 cc</p></div>
@@ -569,7 +569,7 @@ const productos = [
       imagen: "/img/fuoco-500.webp",
       categoria: {
         nombre: "Gilera",
-        id: "gilera"
+        nombreid: "gilera"
       },
       precio: 7800,
     },
